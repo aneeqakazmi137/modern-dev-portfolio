@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-black text-white p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm">
-        <h1 className="text-4xl font-bold mb-4">Software Engineer Portfolio</h1>
+        <h1 className="text-4xl font-bold mb-4">Aneeqa Kazmi Portfolio</h1>
         <p className="text-xl text-gray-400 mb-8">
           Specializing in Full-Stack Development & AI Integration.
         </p>
