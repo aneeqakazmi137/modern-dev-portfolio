@@ -30,9 +30,9 @@ export default function Home() {
     href="https://github.com/aneeqakazmi137/cpp-library-manager" 
     target="_blank" 
     rel="noopener noreferrer"
-    className="inline-block bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors"
+    className="text-blue-400 hover:text-blue-300 font-medium underline underline-offset-4 decoration-2 transition-colors"
   >
-    View Code
+    View Source Code on GitHub →
   </a>
 </div>
 
