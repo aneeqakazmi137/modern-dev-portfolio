@@ -8,11 +8,28 @@ export default function Home() {
         </p>
 
         <div className="grid grid-cols-1 gap-8 text-left">
-          {/* Project 1 */}
-          <div className="border border-gray-700 p-6 rounded-lg bg-gray-900/50 hover:border-blue-500 transition-colors">
-            <h2 className="text-2xl font-semibold mb-2 text-blue-400">Socket-Based Chat Application</h2>
-            <p className="text-gray-300">A real-time client-server communication system built with Java Socket Programming.</p>
-          </div>
+          {/* Project: Socket-Based Chat Application */}
+<div className="group border border-gray-800 p-6 rounded-xl bg-gray-900/40 hover:border-blue-900 transition-all duration-300">
+  <h2 className="text-xl font-bold mb-3 text-blue-400">Socket-Based Chat Application</h2>
+  <p className="text-gray-400 mb-6 leading-relaxed">
+    A Java-based network communication system featuring a graphical user interface and multi-threaded socket programming for real-time data exchange.
+  </p>
+  <div className="flex flex-wrap gap-2 mb-6">
+    {["Java", "Swing", "Sockets", "Threads"].map((tag, i) => (
+      <span key={i} className="text-xs font-medium px-2.5 py-0.5 rounded bg-gray-800 text-gray-300 border border-gray-700">
+        {tag}
+      </span>
+    ))}
+  </div>
+  <a 
+    href="https://github.com/aneeqakazmi137/java-network-chat" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="inline-block text-sm font-semibold text-blue-500 hover:text-blue-300 transition-colors border-b border-transparent hover:border-blue-300 pb-1"
+  >
+    View Source Code on GitHub →
+  </a>
+</div>
 
           {/* Project 2 */}
           <div className="border border-gray-700 p-6 rounded-lg bg-gray-900/50 hover:border-blue-500 transition-colors">
