@@ -20,11 +20,21 @@ export default function Home() {
             <p className="text-gray-300">A retail management and automated billing system developed using Java and JavaFX.</p>
           </div>
 
-          {/* Project 3 */}
-          <div className="border border-gray-700 p-6 rounded-lg bg-gray-900/50 hover:border-blue-500 transition-colors">
-            <h2 className="text-2xl font-semibold mb-2 text-blue-400">Library Management System</h2>
-            <p className="text-gray-300">A console-based C++ application focused on efficient data handling and OOP principles.</p>
-          </div>
+         {/* Project 3 */}
+<div className="border border-gray-700 p-6 rounded-lg bg-gray-900/50 hover:border-blue-500 transition-colors">
+  <h2 className="text-2xl font-semibold mb-2 text-blue-400">Library Management System</h2>
+  <p className="text-gray-300 mb-4">
+    A console-based C++ application focused on efficient data handling, OOP principles, and persistent file storage.
+  </p>
+  <a 
+    href="https://github.com/aneeqakazmi137/cpp-library-manager" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="inline-block bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors"
+  >
+    View Code
+  </a>
+</div>
 
           {/* Project 4: HANGMAN PROJECT - Now Blue to match the theme */}
           <div className="border border-gray-700 p-6 rounded-lg bg-gray-900/50 hover:border-blue-500 transition-colors">
