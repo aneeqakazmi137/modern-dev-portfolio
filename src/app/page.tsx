@@ -25,6 +25,22 @@ export default function Home() {
             <h2 className="text-2xl font-semibold mb-2 text-blue-400">Library Management System</h2>
             <p className="text-gray-300">A console-based C++ application focused on efficient data handling and OOP principles.</p>
           </div>
+
+          {/* Project 4: NEW HANGMAN PROJECT */}
+          <div className="border border-gray-700 p-6 rounded-lg bg-gray-900/50 hover:border-green-500 transition-colors">
+            <h2 className="text-2xl font-semibold mb-2 text-green-400">Pro Hangman Edition</h2>
+            <p className="text-gray-300 mb-4">
+              A robust C++ game featuring Object-Oriented Programming and dynamic file handling for word lists.
+            </p>
+            <a 
+              href="https://github.com/aneeqakazmi137/cpp-hangman-pro" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-green-500 hover:underline font-bold"
+            >
+              View Source Code on GitHub →
+            </a>
+          </div>
         </div>
 
         {/* New Contact Me Button */}
