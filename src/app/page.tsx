@@ -20,7 +20,7 @@ export default function Home() {
             <p className="text-gray-300">A retail management and automated billing system developed using Java and JavaFX.</p>
           </div>
 
-         {/* Project 3 */}
+       {/* Project 3 */}
 <div className="border border-gray-700 p-6 rounded-lg bg-gray-900/50 hover:border-blue-500 transition-colors">
   <h2 className="text-2xl font-semibold mb-2 text-blue-400">Library Management System</h2>
   <p className="text-gray-300 mb-4">
@@ -30,7 +30,7 @@ export default function Home() {
     href="https://github.com/aneeqakazmi137/cpp-library-manager" 
     target="_blank" 
     rel="noopener noreferrer"
-    className="text-blue-400 hover:text-blue-300 font-medium underline underline-offset-4 decoration-2 transition-colors"
+    className="text-blue-400 hover:text-blue-300 font-medium transition-colors hover:underline underline-offset-4 decoration-2"
   >
     View Source Code on GitHub →
   </a>
