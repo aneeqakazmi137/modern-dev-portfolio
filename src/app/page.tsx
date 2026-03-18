@@ -63,16 +63,4 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Contact Me Button */}
-        <div className="mt-16">
-          <a 
-            href="mailto:kazmianeeqai13@gmail.com" 
-            className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full transition-all transform hover:scale-105"
-          >
-            Contact Me
-          </a>
-        </div>
-      </div>
-    </main>
-  );
-}
+      }
