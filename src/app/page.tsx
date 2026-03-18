@@ -13,7 +13,7 @@ export default function Home() {
             <p className="text-gray-300 mb-4">
               A Java-based network communication system featuring a graphical user interface and multi-threaded socket programming for real-time data exchange.
             </p>
-            
+            <a
               href="https://github.com/aneeqakazmi137/java-network-chat"
               target="_blank"
               rel="noopener noreferrer"
@@ -33,7 +33,7 @@ export default function Home() {
             <p className="text-gray-300 mb-4">
               A console-based C++ application focused on efficient data handling, OOP principles, and persistent file storage.
             </p>
-            
+            <a
               href="https://github.com/aneeqakazmi137/cpp-library-manager"
               target="_blank"
               rel="noopener noreferrer"
@@ -48,7 +48,7 @@ export default function Home() {
             <p className="text-gray-300 mb-4">
               A robust C++ game featuring Object-Oriented Programming and dynamic file handling for word lists.
             </p>
-            
+            <a
               href="https://github.com/aneeqakazmi137/cpp-hangman-pro"
               target="_blank"
               rel="noopener noreferrer"
