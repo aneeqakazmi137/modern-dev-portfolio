@@ -7,7 +7,34 @@ export default function Home() {
           Computer Science Student @ COMSATS | Software Developer
         </p>
         <div className="grid grid-cols-1 gap-8 text-left">
-          {/* Project 1 */}
+          
+          {/* Project 1: PakFuel Crisis Tracker */}
+          <div className="border border-gray-700 p-6 rounded-lg bg-gray-900/50 hover:border-blue-500 transition-colors">
+            <h2 className="text-2xl font-semibold mb-2 text-blue-400">PakFuel Crisis Tracker</h2>
+            <p className="text-gray-300 mb-4">
+              A real-time tracking web application designed to monitor fuel availability, pricing trends, and supply updates across regional stations.
+            </p>
+            <div className="flex gap-6">
+              <a
+                href="https://github.com/aneeqakazmi137/PakFuel-Crisis-Tracker.git"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 hover:underline font-bold"
+              >
+                View Source Code on GitHub →
+              </a>
+              <a
+                href="https://pakfuel-crisis-tracker.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 hover:underline font-bold"
+              >
+                View Live Site →
+              </a>
+            </div>
+          </div>
+
+          {/* Project 2 */}
           <div className="border border-gray-700 p-6 rounded-lg bg-gray-900/50 hover:border-blue-500 transition-colors">
             <h2 className="text-2xl font-semibold mb-2 text-blue-400">Socket-Based Chat Application</h2>
             <p className="text-gray-300 mb-4">
@@ -22,12 +49,14 @@ export default function Home() {
               View Source Code on GitHub →
             </a>
           </div>
-          {/* Project 2 */}
+
+          {/* Project 3 */}
           <div className="border border-gray-700 p-6 rounded-lg bg-gray-900/50 hover:border-blue-500 transition-colors">
             <h2 className="text-2xl font-semibold mb-2 text-blue-400">Point of Sale (POS) System</h2>
             <p className="text-gray-300">A retail management and automated billing system developed using Java and JavaFX.</p>
           </div>
-          {/* Project 3 */}
+
+          {/* Project 4 */}
           <div className="border border-gray-700 p-6 rounded-lg bg-gray-900/50 hover:border-blue-500 transition-colors">
             <h2 className="text-2xl font-semibold mb-2 text-blue-400">Library Management System</h2>
             <p className="text-gray-300 mb-4">
@@ -42,7 +71,8 @@ export default function Home() {
               View Source Code on GitHub →
             </a>
           </div>
-          {/* Project 4 */}
+
+          {/* Project 5 */}
           <div className="border border-gray-700 p-6 rounded-lg bg-gray-900/50 hover:border-blue-500 transition-colors">
             <h2 className="text-2xl font-semibold mb-2 text-blue-400">Pro Hangman Edition</h2>
             <p className="text-gray-300 mb-4">
@@ -57,6 +87,7 @@ export default function Home() {
               View Source Code on GitHub →
             </a>
           </div>
+
         </div>
       </div>
     </main>
